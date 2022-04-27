@@ -18,8 +18,8 @@
 #[macro_use]
 extern crate sgx_tstd as std;
 
-// #[cfg(feature = "std")]
-// extern crate core;
+#[cfg(feature = "std")]
+extern crate core;
 
 #[cfg(feature = "std")]
 use std::fmt;
